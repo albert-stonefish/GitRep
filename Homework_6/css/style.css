@@ -1,5 +1,5 @@
 body {
-  width: 1600px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -7,23 +7,17 @@ body {
   margin-top: 32px;
   margin-bottom: 26px;
   height: 34px;
-  width: 1600px;
+  width: 1200px;
 }
 
 .logo {
   display: inline-block;
-  margin-left: 245px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
-  color: rgb(85,82,82);
+  color: rgb(149,225,211);
 }
 
-.logo::first-letter {
-  color: rgb(26,188,156);
-  font-weight: 900;
-}
 
 .main_menu {
   display: inline-block;
@@ -57,7 +51,7 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   line-height: 34px;
-  color: rgb(15,1,1);
+  color: rgb(149,225,211);
 }
 
 a {
@@ -80,9 +74,9 @@ a:visited {
 
 .slide_image {
   position: relative;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%);
   left: 800px;
-  filter: brightness(50%);
+  filter: brightness(50%); */
   height: 100%;
   width: 100%;
 }
@@ -198,7 +192,6 @@ h2:after {
   position: relative;
   left: 127.5px;
   transform: translateX(-50%);
-  max-height: 100%
 }
 
 .product_name_price {
